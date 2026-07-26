@@ -334,7 +334,7 @@ export const OpportunityCostScratchpad: React.FC<OpportunityCostScratchpadProps>
               <p className="text-xs leading-relaxed mb-1 font-medium">{evaluationResult.feedbackText}</p>
               {evaluationResult.hint && (
                 <div className="mt-2 text-xs bg-white/90 p-3 rounded-xl border border-slate-200 font-medium text-slate-700">
-                  💡 <strong>선생님의 힌트:</strong> {evaluationResult.hint}
+                  💡 <strong>연정샘의 힌트:</strong> {evaluationResult.hint}
                 </div>
               )}
             </div>

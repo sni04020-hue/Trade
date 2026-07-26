@@ -95,7 +95,7 @@ export const ChatTutor: React.FC<ChatTutorProps> = ({
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <h3 className="font-extrabold text-base text-slate-800">은지 선생님</h3>
+              <h3 className="font-extrabold text-base text-slate-800">연정샘</h3>
               <span className="text-[10px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-100 px-2 py-0.5 rounded-full">
                 친절한 경제 도우미
               </span>
@@ -178,7 +178,7 @@ export const ChatTutor: React.FC<ChatTutorProps> = ({
             <div className="bg-white border border-slate-200 rounded-2xl rounded-tl-none p-4 shadow-xs flex items-center gap-2.5">
               <RefreshCw className="w-4 h-4 text-indigo-600 animate-spin" />
               <span className="text-xs font-bold text-slate-600">
-                선생님이 질문을 가다듬고 생각하는 중...
+                연정샘이 질문을 가다듬고 생각하는 중...
               </span>
             </div>
           </div>
@@ -214,7 +214,7 @@ export const ChatTutor: React.FC<ChatTutorProps> = ({
           type="text"
           value={inputText}
           onChange={(e) => setInputText(e.target.value)}
-          placeholder="정답이나 질문을 입력하세요..."
+          placeholder="연정샘에게 내 답이나 질문을 이야기해보세요..."
           className="flex-1 bg-slate-100 border-none rounded-xl px-4 py-3 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:bg-white transition-all"
         />
         <button
